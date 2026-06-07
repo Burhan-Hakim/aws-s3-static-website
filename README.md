@@ -5,7 +5,15 @@
 
 ---
 
-## 🌐 Project Overview
+## 🌐 Live Website
+
+> ✅ Successfully deployed and accessible at:
+
+**[http://burhan-cloud-portfolio.s3-website.ap-south-1.amazonaws.com](http://burhan-cloud-portfolio.s3-website.ap-south-1.amazonaws.com)**
+
+---
+
+## 📋 Project Overview
 
 This project demonstrates how to host a static website entirely on
 AWS S3 — without any servers, without any backend, without any
@@ -37,28 +45,41 @@ a bucket policy for read permissions.
 
 | Step | Action |
 |------|--------|
-| 1 | Created an AWS S3 bucket with a unique name |
-| 2 | Disabled Block Public Access for website hosting |
+| 1 | Wrote index.html with HTML and CSS |
+| 2 | Created an AWS S3 bucket in Mumbai region |
 | 3 | Uploaded index.html to the S3 bucket |
-| 4 | Enabled Static Website Hosting on the bucket |
-| 5 | Configured Bucket Policy for public read access |
-| 6 | Accessed and verified the live website via S3 endpoint URL |
+| 4 | Configured Bucket Policy for public read access |
+| 5 | Enabled Static Website Hosting on the bucket |
+| 6 | Copied the S3 website endpoint URL |
+| 7 | Verified live website running in browser |
 
 ---
 
 ## 📸 Screenshots
 
-### S3 Bucket Created
-![S3 Bucket](screenshots/bucket-created.png)
+### 1. HTML Code — index.html
+![HTML Code](screenshots/01-html-code.png)
 
-### File Uploaded Successfully
-![File Uploaded](screenshots/file-uploaded.png)
+### 2. S3 Bucket Created — Mumbai Region
+![Bucket Created](screenshots/02-bucket-created.png)
 
-### Static Website Hosting Enabled
-![Static Hosting](screenshots/static-hosting.png)
+### 3. File Upload Successful
+![Upload Success](screenshots/03-file-upload-success.png)
 
-### Live Website Running
-![Live Website](screenshots/live-website.png)
+### 4. index.html Inside Bucket
+![File In Bucket](screenshots/04-file-in-bucket.png)
+
+### 5. Bucket Policy Configured
+![Bucket Policy](screenshots/05-bucket-policy.png)
+
+### 6. Static Website Hosting Enabled
+![Static Hosting](screenshots/06-static-hosting-enabled.png)
+
+### 7. Website Endpoint Copied
+![Endpoint Copied](screenshots/07-endpoint-copied.png)
+
+### 8. Live Website Running on AWS
+![Live Website](screenshots/08-live-website.png)
 
 ---
 
@@ -101,5 +122,6 @@ a bucket policy for read permissions.
 ---
 
 <p align="center">
-  
+  <i>Part of my Cloud & DevOps portfolio — built during Advanced Certification 
+  at iHUB DivyaSampark, IIT Roorkee</i>
 </p>
